@@ -1,10 +1,10 @@
 from ibmcloudant import CouchDbSessionAuthenticator 
 from ibm_cloud_sdk_core.authenticators import BasicAuthenticator
 
-authenticator = BasicAuthenticator('apikey-v2-16u3crmdpkghhxefdi kvpssoh5fwezrmuup5fv5g3ubz', 'b0ab119f45d3e6255eabb978')
+authenticator = BasicAuthenticator('apikey-v2-1v2xixgkowegdjisqbix4qd29ax46mf7xuevdcypbep5', '6f388bb9926de2d5f77977f011fc8d3c')
 service = CloudantV1(authenticator=authenticator)
 
-service.set_service_url('https://apikey-v2-16u3ermdpkghhxefdikvpssoh5fwezrmuup5fv5g3ubz:b0ab119145d3e6255eabb978e7e2f0')
+service.set_service_url('https://apikey-v2-1v2xixgkowegdjisqbix4qd29ax46mf7xuevdcypbep5:6f388bb9926de2d5f77977f011fc8d3c@d88bf630-4232-465c-ad85-4ee495e8c19b-bluemix.cloudantnosqldb.appdomain.cloud')
 
 cap= cv2.VideoCapture(0)
 font = cv2.FONT_HERSHEY_PLAIN
