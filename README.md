@@ -21,5 +21,6 @@ Smart Solutions for railways is designed to reduced the work load of the user an
 
    5.All the booking details of the customers will be stored in the database with a unique ID and they can be retrieved back when the Ticket Collector scans the QR Code.
 
+## ***Technical Architecture:***
 
 
