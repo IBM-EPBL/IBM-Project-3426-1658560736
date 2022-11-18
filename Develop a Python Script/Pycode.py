@@ -1,16 +1,14 @@
 import wiotp.sdk.device
+import ibmiotf.applicaton
+import ibmiotf.device
 import time
 import random
-myConfig = {
-	"identity": {
-		"orgId": "te0dto",
-		"typeId": "ssfr_iot",
-		"deviceId":"123456789"
-	},
-	"auth": {
-		"token": "123456789"
-	}
-}
+#Configuration details
+Organization ID = "te0dto"
+Device Type = "ssfr_iot1"
+Device ID = "55555"
+Authentication Method="use-token-auth"
+Authentication Token ="l)zkmpbH8RA3kEOfd?"
 
 def myCommandCallback (cmd): 
 	print ("Message received from IBM IoT Platform: %s" % cmd.data['command']) 
